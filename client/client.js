@@ -10,11 +10,11 @@ var client_opts = {
 
 var cb_func = function(response) {
 	var body = "";
-	reponse.on("data", function(data) {
+	response.on("data", function(data) {
 		body += data;
 	});
 
-	reponse.on("end", function() {
+	response.on("end", function() {
 		console.log(body);
 	});
 };

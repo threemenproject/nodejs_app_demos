@@ -1,9 +1,11 @@
 {
-  "name": "socket-chat-example",
+  "name": "Learning Node src",
   "version": "0.0.1",
   "description": "demo",
   "dependencies": {
     "express": "^4.15.3",
+    "http": "0.0.0",
+    "querystring": "^0.2.0",
     "socket.io": "^2.0.3"
   }
 }
